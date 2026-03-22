@@ -7,3 +7,12 @@
 这个项目记录了我目前做过的 LeetCode Hot 100 题目，我也会持续更新，直到把这 100 道经典题真正吃透、掌握下来。
 
 我希望把这个项目完全开源，分享给和我一样正在刷题、或者刚开始接触算法的人。希望它能帮助更多人降低理解门槛，不只是背题解、记代码，而是真正看懂算法是怎么跑起来的。
+
+## 使用方式
+
+```bash
+git clone https://github.com/Luk4sy/LeetCode-Hot-100-Animation.git
+cd LeetCode-Hot-100-Animation
+npm install
+npm run dev
+```
