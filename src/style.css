@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-canvas: #fafafa;
+  --text: #1f2937;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --border: #e5e7eb;
+  --border-hover: #9ca3af;
+  --btn-bg: #ffffff;
+  --btn-hover: #f3f4f6;
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --shadow-canvas: 0 2px 12px rgba(0, 0, 0, 0.06);
+  /* Canvas 绘制颜色 */
+  --canvas-node-fill: #ffffff;
+  --canvas-node-stroke: #6b7280;
+  --canvas-node-text: #1f2937;
+  --canvas-arrow: #9ca3af;
+  --canvas-null: #9ca3af;
+  --canvas-desc: #374151;
+}
+
+html.dark {
+  --bg: #0f172a;
+  --bg-card: #1e293b;
+  --bg-canvas: #1e293b;
+  --text: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border: #334155;
+  --border-hover: #64748b;
+  --btn-bg: #1e293b;
+  --btn-hover: #334155;
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-canvas: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --canvas-node-fill: #334155;
+  --canvas-node-stroke: #94a3b8;
+  --canvas-node-text: #f1f5f9;
+  --canvas-arrow: #64748b;
+  --canvas-null: #64748b;
+  --canvas-desc: #cbd5e1;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+}
+
+#app {
+  min-height: 100vh;
+}
